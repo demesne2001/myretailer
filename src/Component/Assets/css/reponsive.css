@@ -1,0 +1,385 @@
+@media only screen and (max-width: 1200px) {
+    li.nav-item.navbar-dropdown.dropdown-user.dropdown {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .carddetail {
+        display: inline-flex;
+        align-items: center;
+        flex-flow: column-reverse;
+    }
+    .img_busmaster {
+        height: 100%;
+        /* margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px; */
+    }
+
+    #tblmstLoyaltiGroup_filter label {
+        position: relative;
+        top: -4px;
+        margin-top: 3px;
+
+    }
+
+    .slider-general-dropdown {
+        position: relative;
+        /* float: right; */
+        width: 100%;
+    }
+.spon_date_to,.spon_date_from
+{
+    display: inline;
+}
+.is_publishh
+{
+    right: 10px;
+}
+    section.dashboard-card .card-subtittle p {
+        font-size: 16px;
+    }
+
+    section.dashboard-card .card-subtittle h1 {
+        font-size: 28px;
+    }
+
+    .card-icon {
+        margin-bottom: 15px;
+    }
+
+    .card-subtittle {
+        text-align: center;
+    }
+    label.label-name {
+        font-size: 14px;
+    }
+    .col-xl-4.col-lg-4.col-md-6.col-sm-12.row.spon_date {
+        display: block;
+    }
+    .vendorreview-field.vendor-publish {
+        display: block;
+    }
+    button.btn.btn-secondary.btn-sm.up-btn {
+        margin-right: 16px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+    }
+    button.btn.btn-secondary.btn-sm.down-btn
+    {
+        margin-right: 16px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-icon {
+        height: 72px;
+        width: 72px;
+    }
+
+    section.dashboard-card .card-subtittle h1 {
+        font-size: 33px;
+    }
+
+    section.dashboard-card .card-subtittle p {
+        font-size: 23px;
+    }
+}
+
+/*media query*/
+@media (max-width: 1440px) {
+    .card.card-primary.dashboardcard-details {
+        padding: 22px 12px;
+    }
+
+    section.dashboard-card .card-subtittle h1 {
+        font-size: 34px;
+    }
+
+    section.dashboard-card .card-subtittle p {
+        font-size:14px;
+    }
+
+    .card-icon {
+        height: 76px;
+        width: 76px;
+    }
+    .row .spon_date
+    {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .card-icon {
+        height: 66px;
+        width: 66px;
+    }
+
+    section.dashboard-card .card-subtittle h1 {
+        font-size: 29px;
+    }
+
+    section.dashboard-card .card-subtittle p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #SMSText {
+        position: relative;
+        left: 1px
+    }
+  
+    .spon_date_from
+    {
+        display: math;
+    }
+}
+
+@media screen and (max-width: 984px) {
+
+    input#btnGo {
+        margin-left: 0%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .img_busmaster {
+        height: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+      
+    .slider-general-dropdown{
+        left: -15px;}
+    div.dataTables_wrapper div.dataTables_length,
+    div.dataTables_wrapper div.dataTables_filter,
+    div.dataTables_wrapper div.dataTables_info,
+    div.dataTables_wrapper div.dataTables_paginate {
+        position: relative;
+        justify-content: center;
+    }
+    div.dataTables_wrapper div.dataTables_filter {
+        margin-top: 0px;
+    }
+ 
+
+    #tblmstLoyaltiGroup_filter label {
+        position: relative;
+        top: -4px;
+        margin-top: 3px;
+
+    }
+
+    input#btnGo {
+        margin-left: 0%;
+        margin-top: 10px;
+    }
+
+
+    ul.pagination {
+        padding: 9px 0px 1px 2px;
+    }
+
+    div.dataTables_wrapper div.dataTables_length label {
+        float: left;
+    }
+
+    .Custome_bottom-Footer {
+        height: 64px;
+    }
+
+    .d-flex.active_btn.active_footer_btn {
+        color: black;
+        font-weight: 600;
+        position: relative;
+        left: 58px;
+        top: -27px;
+    }
+
+    .float-right .foot_button {
+        display: contents;
+    }
+
+    .new_btn {
+        float: inline-start;
+        margin-top: 10px;
+    }
+    .notification-icon {
+
+        position: relative;
+        left: 25px;
+    }
+   ul.pagination {
+    padding: 5px 0px 1px 0px;
+    }
+    .coupon-card {
+        display: flex;
+        font-size: 17px;
+        align-items: center;
+        flex-wrap: wrap;
+    }    
+
+    .d-flex.active_btn.active_footer_btn {
+       top:0px;
+          
+        }
+}
+
+@media only screen and (max-width: 500px) {
+    .bg-footer-theme {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    section.dashboard-card .card-subtittle p {
+        font-size: 18px;
+    }
+
+    section.dashboard-card .card-subtittle h1 {
+        font-size: 30px;
+    }
+    .vendorreview-field {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 7px;
+    }
+label.publish {
+    display: contents;
+}
+    .bg-footer-theme {
+        font-size: 11px;
+    }
+    .is_publish_dropdown {
+        /* position: relative; */
+        right: 10px;
+        width: 106%;
+    }
+    .main_title.d-flex.justify-content-between.align-content-center {
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    
+    .coupon-card {
+        display: flex;
+        font-size: 17px;
+        align-items: center;
+        flex-wrap: wrap;
+    }    
+
+    #tblmstLoyaltiGroup_filter label {
+        position: relative;
+        top: -4px;
+        margin-top: 3px;
+
+    }
+
+    h1.page-main-title {
+        font-size: 20px;
+    }
+
+    .notification-icon {
+
+        position: relative;
+        left: 25px;
+    }
+
+    input#btnGo {
+        margin-left: 4px;
+        margin-top: 10px;
+    }
+
+    .Custom_btn {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    .new_btn {
+        float: inline-end;
+        display: contents;
+    }
+
+    div#divMessage {
+        font-size: 12px;
+    }
+
+    .submaster-topheader {
+        margin: 10px 0px 10px 0px;
+    }
+
+    div.dataTables_wrapper div.dataTables_filter input {
+        width: 193px !important;
+    }
+    .main_title.d-flex.justify-content-between.align-content-center a.btn.Custom_btn {
+        margin-right: -23px;
+        display: inline-flex;
+        padding: 8px;
+        font-size: 14px;
+    }
+  
+        .slider-general-dropdown{
+    left: -15px;}
+
+}
+
+@media only screen and (max-width: 375px) {
+    h1.page-main-title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 472px) {
+    .float-right .foot_button {
+        display: inline-flex !important;
+    }
+
+}
+/* login responsive */
+@media (max-width: 992px) {
+    .login-8 .vector_img
+    {
+        display:none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .login-8 .login-inner-form .form-box i {
+        top: 14px;
+        font-size: 16px;
+    }
+    .login-8 .login-inner-form .form-control {
+        font-size: 16px;
+        border-radius: 13px;
+        padding: 10px 10px 10px 10px;
+    }
+    .login-8 .login-inner-form .btn-md {
+        height: 45px;
+        color: #FFF;
+        padding: 0px;
+        font-size: 23px;
+        font-weight: 600;
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+    .login-8 .form-info {
+        padding: 24px 26px 24px;
+    }
+    .login-8 .login-inner-form .btn-md {
+        height: 41px;
+        color: #FFF;
+        padding: 0px;
+        font-size: 19px;
+        font-weight: 600;
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+  
+}

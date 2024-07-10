@@ -1,0 +1,12 @@
+From node:18.12.1
+RUN mkdir '/WebMyRetail'
+WORKDIR '/WebMyRetail'
+
+COPY . /WebMyRetail
+COPY package.json ./
+RUN npm install
+
+COPY . .
+
+EXPOSE 5000
+CMD ["npm", "start"]
